@@ -1,0 +1,30 @@
+{
+  "name": "maptype",
+  "version": "0.0.1",
+  "description": "Flow for mapped javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/lib/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eespinal/maptype.git"
+  },
+  "keywords": [
+    "flow",
+    "flowtype",
+    "sourcemap"
+  ],
+  "author": "Eddy Espinal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eespinal/maptype/issues"
+  },
+  "homepage": "https://github.com/eespinal/maptype",
+  "dependencies": {
+    "source-map": "^0.4.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
